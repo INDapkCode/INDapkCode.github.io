@@ -753,8 +753,7 @@ submitText();
                 var fileFormat = document.getElementById("fileFormatInput").value;
                 var fileRegion = document.getElementById("fileRegionInput").value;
 
-                var resultHTML = `
- <br>Nama Game: ${fileName}
+                var resultHTML = `Nama Game: ${fileName}
  <br>Ukuran Single: ${fileSize}
  <br>Ukuran PART: ${filePart}
  <br>Category: ${fileCategory}
@@ -764,9 +763,7 @@ submitText();
  <br>Emulator: Eggns/Skyline/Strato
  <br>Game Switch Lainnya: <a href="https://www.indapk.com/p/nintendo-switch.html" rel="nofollow">Klik Disini</a>
  <br>Request Game: <a href="https://forms.gle/5HBssZDABp7mPy3V8" rel="nofollow">Klik disini</a>
- <br>Laporkan Link Rusak: <a href="https://forms.gle/vKQ4W5BiphGrkBS57" rel="nofollow">Klik disini</a>
-
- `;
+ <br>Laporkan Link Rusak: <a href="https://forms.gle/vKQ4W5BiphGrkBS57" rel="nofollow">Klik disini</a>`;
 
                 document.getElementById("result").innerText = resultHTML;
             }
