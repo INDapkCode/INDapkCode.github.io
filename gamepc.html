@@ -171,6 +171,8 @@ body.dark-mode {
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="switch2.html">Switch 2</a></li>
                             <li><hr class="dropdown-divider"></li> 
+                            <li><a class="dropdown-item" href="switch3.html">Switch 3</a></li>
+                            <li><hr class="dropdown-divider"></li> 
                             <li><a class="dropdown-item" href="index.html">Switch 4</a></li> 
                             <li><hr class="dropdown-divider"></li> 
                             <li><a class="dropdown-item" href="ps2.html">PS2</a></li> 
@@ -501,16 +503,14 @@ submitText();
             document.getElementById("fileCategory").textContent = fileCategory;
 
             // Buat string HTML untuk hasil submit
-            var resultHTML = `
-Nama Game: ${fileName}
+            var resultHTML = `Nama Game: ${fileName}
 <br>Ukuran Game: ${fileSize}
 <br>Category: ${fileCategory}
 <br>Tested: Mobox/Winlator (Emulator Android)
 <br>List Game Mobox/Winlator/Box64droid: <a href="https://www.indapk.com/p/kumpulan-game-moboxwinlatorbox64droid.html">Klik Disini</a>
 <br>Game PC Lainnya: <a href="https://www.indapk.com/p/kumpulan-game-pc.html" rel="nofollow">Klik Disini</a>
 <br>Request Game: <a href="https://forms.gle/5HBssZDABp7mPy3V8" rel="nofollow">Klik disini</a>
-<br>Laporkan Link Rusak: <a href="https://forms.gle/vKQ4W5BiphGrkBS57" rel="nofollow">Klik disini</a>
- `;
+<br>Laporkan Link Rusak: <a href="https://forms.gle/vKQ4W5BiphGrkBS57" rel="nofollow">Klik disini</a>`;
 
             // Tampilkan hasil submit dalam format HTML
             document.getElementById("result").innerText = resultHTML;
