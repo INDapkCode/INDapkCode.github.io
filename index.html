@@ -471,8 +471,9 @@ body.dark ::placeholder { /* Target placeholder untuk browser modern */
     <script>
         var jumlahInputLink = 1;
         var pilihanHost = [
-            "Google Drive Part 1", "Google Drive Part 2", "Google Drive Part 3", "Google Drive Part 4", "Mediafire Part 1", "Mediafire Part 2",
-            "Mediafire Part 3", "Mediafire Part 4", "Qiwi Part 1", "Qiwi Part 2", "Qiwi Part 3", "Qiwi Part 4",
+            "Google Drive Part 1", "Google Drive Part 2", "Google Drive Part 3", "Google Drive Part 4", 
+            "Mediafire Part 1", "Mediafire Part 2","Mediafire Part 3", "Mediafire Part 4", 
+            "Qiwi Part 1", "Qiwi Part 2", "Qiwi Part 3", "Qiwi Part 4",
             "PixelDrain Part 1", "PixelDrain Part 2", "PixelDrain Part 3", "PixelDrain Part 4",
             "MEGA Part 1", "MEGA Part 2", "MEGA Part 3", "MEGA Part 4",
             "1Fichier Part 1", "1Fichier Part 2", "1Fichier Part 3", "1Fichier Part 4",
@@ -566,8 +567,7 @@ body.dark ::placeholder { /* Target placeholder untuk browser modern */
     <script>
         var hostCount = 1;
         var hostOptions = [
-            "Google Drive", "MediaFire", "Qiwi", "PixelDrain", "MEGA", "ClickNupload",
-            "1Fichier", "Alternatif", "TurboBit", "1Fichier", "Alternatif", "Uploaded",
+            "Google Drive", "Qiwi", "PixelDrain", "MEGA", "1Fichier", "Multiup", "TurboBit", "1Fichier", "Alternatif", "Uploaded",
             "RapidGator", "Filerio", "Ddownload", "Userscloud", "Filejoker", "Upstore.net",
             "Gofile", "Bayfiles", "Anonfiles", "Letsupload.io", "Pixeldrain.com", "Send.cm",
             "Terabox"
@@ -717,9 +717,7 @@ function extractFileInfo() {
             var fileGameID = document.getElementById("fileGameIDInput").value;
             var fileFormat = document.getElementById("fileFormatInput").value;
             var fileRegion = document.getElementById("fileRegionInput").value;
-
-            var resultHTML = `
-    <br>Nama Game: ${fileName}
+            var resultHTML = `Nama Game: ${fileName}
     <br>Ukuran Single: ${fileSize}
     <br>Ukuran PART: ${filePart}
     <br>Category: ${fileCategory}
@@ -729,9 +727,7 @@ function extractFileInfo() {
     <br>Emulator: Eggns/Skyline/Strato
     <br>Game Switch Lainnya: <a href="https://www.indapk.com/p/nintendo-switch.html" rel="nofollow">Klik Disini</a>
     <br>Request Game: <a href="https://forms.gle/5HBssZDABp7mPy3V8" rel="nofollow">Klik disini</a>
-    <br>Laporkan Link Rusak: <a href="https://forms.gle/vKQ4W5BiphGrkBS57" rel="nofollow">Klik disini</a>
-
-  `;
+    <br>Laporkan Link Rusak: <a href="https://forms.gle/vKQ4W5BiphGrkBS57" rel="nofollow">Klik disini</a>`;
 
             document.getElementById("result").innerText = resultHTML;
         }
