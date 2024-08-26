@@ -218,12 +218,12 @@ body.dark-mode {
                             <input type="text" id="fileNameps2Input" name="fileNameps2Input" class="form-control" placeholder="Contoh: God of War">
                         </div>
                         <div class="form-group">
-                            <label for="fileSizeps2Input">Ukuran Game ISO:</label>
-                            <input type="text" id="fileSizeps2Input" name="fileSizeps2Input" class="form-control" placeholder="Contoh: 3.21 GB">
+                            <label for="fileSizeps2Input">Ukuran Game CHD:</label>
+                            <input type="text" id="fileSizeps2Input" name="fileSizeps2Input" class="form-control" placeholder="Contoh: 1.54 GB">
                         </div>
                         <div class="form-group">
-                            <label for="fileSizeps2CHDInput">Ukuran Game CHD:</label>
-                            <input type="text" id="fileSizeps2CHDInput" name="fileSizeps2CHDInput" class="form-control" placeholder="Contoh: 1.54 GB">
+                            <label for="fileSizeps2CHDInput">Ukuran Game ISO:</label>
+                            <input type="text" id="fileSizeps2CHDInput" name="fileSizeps2CHDInput" class="form-control" placeholder="Contoh: 3.21 GB">
                         </div>
                         <div class="form-group">
                             <label for="fileCategoryps2Input">Category:</label>
@@ -453,8 +453,8 @@ function extractFileInfo() {
 
             // Buat string HTML untuk hasil submit
             var resultps2HTML = `Nama Game: ${fileNameps2}
-<br>Ukuran Game ISO: ${fileSizeps2ISO}
-<br>Ukuran Game CHD: ${fileSizeps2CHD}
+<br>Ukuran Game CHD: ${fileSizeps2ISO}
+<br>Ukuran Game ISO: ${fileSizeps2CHD}
 <br>Category: ${fileCategoryps2}
 <br>Format: CHD/ISO
 <br>Region: USA
