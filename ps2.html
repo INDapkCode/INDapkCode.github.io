@@ -189,6 +189,8 @@ body.dark-mode {
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="switch2.html">Switch 2</a></li>
                   <li><hr class="dropdown-divider"></li> 
+                  <li><a class="dropdown-item" href="switch3.html">Switch 3</a></li>
+                  <li><hr class="dropdown-divider"></li> 
                   <li><a class="dropdown-item" href="index.html">Switch 4</a></li>
                   <li><hr class="dropdown-divider"></li> 
                   <li><a class="dropdown-item" href="gamepc.html">Game PC</a></li>
@@ -450,8 +452,7 @@ function extractFileInfo() {
             document.getElementById("fileCategoryps2").textContent = fileCategoryps2;
 
             // Buat string HTML untuk hasil submit
-            var resultps2HTML = `
-<br>Nama Game: ${fileNameps2}
+            var resultps2HTML = `Nama Game: ${fileNameps2}
 <br>Ukuran Game ISO: ${fileSizeps2ISO}
 <br>Ukuran Game CHD: ${fileSizeps2CHD}
 <br>Category: ${fileCategoryps2}
@@ -460,8 +461,7 @@ function extractFileInfo() {
 <br>Emulator: <a href="https://www.indapk.com/2021/12/emulator-ps2-aethersx.html" rel="nofollow">Aethersx2</a>
 <br>Game PS2 Lainnya: <a href="https://www.indapk.com/p/kumpulan-game-ps2-chd.html" rel="nofollow">Klik Disini</a>
 <br>Request Game: <a href="https://forms.gle/5HBssZDABp7mPy3V8" rel="nofollow">Klik disini</a>
-<br>Laporkan Link Rusak: <a href="https://forms.gle/vKQ4W5BiphGrkBS57" rel="nofollow">Klik disini</a>
- `;
+<br>Laporkan Link Rusak: <a href="https://forms.gle/vKQ4W5BiphGrkBS57" rel="nofollow">Klik disini</a>`;
             // Tampilkan hasil submit dalam format HTML
             document.getElementById("resultps2").innerText = resultps2HTML;
         }
