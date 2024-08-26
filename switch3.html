@@ -609,7 +609,7 @@ body.dark ::placeholder { /* Target placeholder untuk browser modern */
                 var sizeValue = document.getElementById(`size${i}`).value;
 
                 if (hostValue === 'Google Drive') {
-                    hasilHTML += `<br>${hostValue}: <a href="${linkValue}" rel="nofollow">Download<span style="font-size: x-small;">(${sizeValue})</span></a>`;
+                    hasilHTML += `${hostValue}: <a href="${linkValue}" rel="nofollow">Download<span style="font-size: x-small;">(${sizeValue})</span></a>`;
                 } else {
                     hasilHTML += `
       <br>${hostValue}: <a href="${linkValue}" rel="nofollow">Download<span style="font-size: x-small;">(${sizeValue})</span></a>`;
